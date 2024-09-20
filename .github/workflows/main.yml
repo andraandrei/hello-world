@@ -1,0 +1,9 @@
+name: Ejemplo workflow
+on: 
+  push:
+    branches: ["main"]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/Translate Readme@v0.1.2
